@@ -1,0 +1,45 @@
+main{	
+.layout-main{	
+.content-page-three{
+	padding: 10px 0;
+	float: right;
+	width: 76.1%;
+	overflow: hidden; 
+	height: auto;
+@media (min-width: 768px) and (max-width: 1023px){
+	float:none;
+	width:80%;
+	margin:0 auto;
+}
+	
+.top-links {
+   margin:10px 0;
+@media (min-width: 768px) and (max-width: 1023px){
+	margin:10px 120px;
+}   
+a{
+	color: #bd0027;
+	font-size: 0.75em;
+	text-decoration: underline;
+	padding: 8px 26px 8px 0;
+	&:visited{
+	    color: #333333;
+	    font-size: 0.87em;
+	}
+}   
+}
+h3{
+	color: $color-links;
+	font-size: 1.5em;
+	font-weight: 400;
+	padding: 18px 10px 12px 0px;
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+@media (min-width: 768px) and (max-width: 1023px){
+	padding: 14px 98px;
+}	
+}	
+}
+}
+}

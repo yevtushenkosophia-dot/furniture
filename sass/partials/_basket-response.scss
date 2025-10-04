@@ -1,0 +1,49 @@
+.basket-respons{
+	width: 210px;
+	background-color: $background-color-main;
+	height: 120px;
+	color: #ffffff;
+	border-radius: 10px;
+	margin: $padding-header-body;
+	position: absolute;
+	top:-299px;
+.basket-top-respons{
+	height: 32px;
+	background-color: #be0028;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+p{
+	text-align: center;
+}	
+}
+.basket-body-respons{
+	font-size: 0.75em;
+p{
+	padding:8px;
+	&:first-child{
+		padding-top: 26px;
+	}
+span{
+	float: right;
+	padding:2px 8px;
+	&:first-child{
+		padding-top: 2px;
+	}
+}
+a{
+	text-decoration: underline;
+	color: #f0d5c3;
+}	
+}	
+}	
+}		
+@media (min-width: 320px) and (max-width: 1023px){
+	.basket-respons.respons-open{
+		position: absolute;
+		top:30px;
+		left:40%;
+		z-index: 10;
+		transition: .25s;
+
+	}
+}
